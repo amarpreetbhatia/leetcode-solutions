@@ -1,0 +1,51 @@
+site_name: Leetcode Problem Solutions
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.selections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - schema: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Toggle Dark Mode
+      primary: blue
+      accent: orange
+    - schema: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Toggle to light Mode
+      primary: teal
+      accent: lime
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/amarpreetbhatia
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/amarpreetbhatia/
+
+copyright: |
+  copyright &copy; <a href="https://github.com/amarpreetbhatia" target="_blank" rel="noopener">Amarpreet Bhatia</a>
